@@ -1,31 +1,27 @@
 # PrimeiroRepositorio
+## Pong no Java
 // Posição da Bolinha
 let xBolinha = 200;
 let yBolinha = 200;
 let diametro = 30;
 let raio = diametro/2
-
 // Velocidade da bolinha
 let velocidadexBolinha = 5
 let velocidadeyBolinha = 5
-
 //Posição da Raquete
 let xRaquete = 5
 let yRaquete = 200
 let compRaquete = 20
 let alturaRaquete = 100
-
 //Posição do Oponente
 let xOponente = 575
 let yOponente = 200
 let compOponente = 20
 let alturaOponente = 100
 let colidiu = false
-
 //placar do jogo
 let meusPontos = 0;
 let pontosDoOponente = 0;
-
 
 function setup() {
 createCanvas(600, 400);
